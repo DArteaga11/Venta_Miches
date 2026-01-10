@@ -1,0 +1,12 @@
+
+cd: Navegar a un directorio específico
+mkdir: Crear un nuevo directorio
+git init: Iniciar un repositorio Git
+git add: Mover los cambios del directorio de trabajo al área de pruebas
+git commit: Confirmar los cambios en el proyecto
+git log: Explorar los cambios anteriores
+git branch[Nombre]: Crear una nueva rama
+git checkout: Cambiar entre las ramas existentes
+git merge: Actualizar las ramas con la rama principal
+git status: Ver el estado de tu directorio de trabajo
+ 
