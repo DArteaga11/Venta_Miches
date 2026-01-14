@@ -74,10 +74,11 @@ font-weight: 600;
 }
 
 .esp{
+    margin-top: -20cm;
     position: absolute;
     width: 100;
     bottom: 0;
-    width: 200px;
+    width: 400px;
 }
 
 .header-info{
@@ -88,15 +89,16 @@ font-weight: 600;
 
 .header-txt{
     width: 50%;
-    padding-right: 35px;
+    padding-right: 200px;
 }
 
 .header-txt h1{
+    margin-top: -200px;
     font-size: 55px;
     line-height: 70px;
-    font-weight: 600px;
-    color: #303030;
-    margin-bottom: 25px;
+    font-weight: 900;
+    color: #17eb10;
+    margin-bottom: 40px;
     text-transform: capitalize;
 }
 
@@ -117,10 +119,12 @@ font-weight: 600;
 }
 
 .header-img{
-    width: 50%;
+    position: -900cm;
+    width: 400%;
 }
 
 .header-img img{
+    position: -900px;
     width: 600px;
 }
 
@@ -223,16 +227,16 @@ font-weight: 600;
 
 .product-info{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,2fr);
     grid-template-rows: auto;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
 }
 
 .product{
-    padding-bottom: 35px;
+    padding-bottom: 10px;
     text-align: center;
-    box-shadow: 0 0 0 10px rgb(102, 99, 99);
-    border-radius: 15px;
+    box-shadow: 0 0 0 10px rgb(100, 100, 175);
+    border-radius: 50px;
 }
 
 .product img{
@@ -250,7 +254,7 @@ font-weight: 600;
 .product p{
     font-size: 16px;
     padding: 30px;
-    color: #545454;
+    color: #d61515;
     margin: 0;
 }
 
@@ -261,17 +265,18 @@ font-weight: 600;
     border-radius: 15px;
 }
 
-hr{
-    border: 1px solid #EEE;
+hr {
+    border: 2px solid #EEE;
+    margin-top: 30px;   /* baja la línea */
 }
 
 .footer{
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .footer-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .link h3{
@@ -280,8 +285,8 @@ hr{
     margin-bottom: 20px;
 }
 
-.social img{
-    margin-right: 15px;
+.socials img{
+    margin-right: 30px;
 }
 
 .link ul li a{
