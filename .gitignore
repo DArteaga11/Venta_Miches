@@ -1,0 +1,14 @@
+# Carpetas personales (CRÍTICO)
+Desktop/
+Documents/
+Downloads/
+Pictures/
+Music/
+Videos/
+
+# Windows
+AppData/
+NTUSER.*
+
+# VS Code
+.vscode/
