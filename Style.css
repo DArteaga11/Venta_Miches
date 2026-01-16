@@ -13,7 +13,7 @@ body{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -74,9 +74,9 @@ font-weight: 600;
 }
 
 .esp{
-    margin-top: -20cm;
+    top: 600px;
     position: absolute;
-    width: 100;
+    width: 300px;
     bottom: 0;
     width: 400px;
 }
@@ -93,11 +93,11 @@ font-weight: 600;
 }
 
 .header-txt h1{
-    margin-top: -200px;
+    
     font-size: 55px;
     line-height: 70px;
     font-weight: 900;
-    color: #17eb10;
+    color: #0a0a0a;
     margin-bottom: 40px;
     text-transform: capitalize;
 }
@@ -110,7 +110,7 @@ font-weight: 600;
 
 .btn-1{
     display: inline-block;
-    background-color: #FF9F0D;
+    background-color: #e48c08;
     padding: 13px 30px;
     border-radius: 20px;
     color: #ffff;
@@ -119,17 +119,17 @@ font-weight: 600;
 }
 
 .header-img{
-    position: -900cm;
-    width: 400%;
+    
+    margin-top: 80px;
+    width: 900px;
 }
 
 .header-img img{
-    position: -900px;
     width: 600px;
 }
 
 .info{
-    padding: 100px;
+    padding: 200px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -170,7 +170,7 @@ font-weight: 600;
 }
 
 .nosotros-info{
-    padding: 200px 0;
+    margin-top: -100px;
     display: flex;
     align-items: center;
 }
@@ -181,7 +181,7 @@ font-weight: 600;
 
 .nosotros-img img{
     width: 570px;
-    z-index: -1;
+    z-index: -10;
 }
 
 .nosotros-txt{
@@ -208,14 +208,14 @@ font-weight: 600;
 }
 
 .products{
-    padding: 80 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 .products h2{
     font-size: 45px;
     color: #303030;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .products p{
@@ -227,47 +227,48 @@ font-weight: 600;
 
 .product-info{
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
     grid-gap: 2rem;
 }
 
 .product{
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
-    box-shadow: 0 0 0 10px rgb(100, 100, 175);
-    border-radius: 50px;
+    box-shadow: 0 0 0 10px rgb(255, 215, 0);
+    border-radius: 40px;
 }
 
 .product img{
     width: 50%;
     height: 150px;
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 .product h3{
     font-size: 16px;
-    color: #303030;
-    margin-top: 15px;
+    color: #c6fa08;
+    margin-top: 10px;
 }
 
 .product p{
     font-size: 16px;
     padding: 30px;
-    color: #d61515;
+    color: #070707;
     margin: 0;
 }
 
 .product span{
-    background-color: #FF9F0D;
-    padding: 10px;
-    color: #ffff;
-    border-radius: 15px;
+
+    background-color: #fa0606;
+    padding: 5px;
+    color: #080808;
+    border-radius: 5px;
 }
 
 hr {
-    border: 2px solid #EEE;
-    margin-top: 30px;   /* baja la línea */
+    border: 1px solid #EEE;
 }
 
 .footer{
@@ -335,7 +336,7 @@ hr {
 
     .header-info{
         flex-direction: column;
-        padding: 30px;
+        padding: 10px;
     }
 
     .header-txt{
@@ -366,7 +367,7 @@ hr {
     }
 
     .info-1{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .nosotros{
@@ -379,17 +380,18 @@ hr {
     }
 
     .nosotros-info{
-        padding: 0;
+        padding: 30px;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
     .nosotros-img{
-        width: 100%;
+        width: 600px;
     }
 
     .nosotros-img img{
+        margin-top: 50px;
         width: 300px;
     }
 
@@ -407,18 +409,25 @@ hr {
         margin-bottom: 20px;
     }
 
-    .product{
-        padding: 30px;
-        text-align: center;
+    .products{
+        padding: 20px;
+        margin-bottom: center;
     }
 
-    .product h2{
+    .products h2{
+        margin-top: -50px;
         font-size: 40px;
     }
 
-    .product p{
+    .products p{
         padding: 0;
         margin-bottom: 40px;
+        
+    }
+
+    .product p{
+        
+        margin-bottom: 10px;
     }
 
     .product-info{
@@ -426,7 +435,7 @@ hr {
     }
 
     .product p{
-        padding: 30px;
+        padding: 35px;
     }
 
     .footer{
